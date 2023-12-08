@@ -10,7 +10,7 @@ my_mean = (sum(my_list))/(my_n + 1)
 my_diffs = [(x - my_mean)**2 for x in my_list]
 
 # We will output the variance by the sum of the squared differences divided by n + 1
-my_var = (sum(my_diffs)) / my_n + 1
+my_var = (sum(my_diffs)) / (my_n + 1)
 
 my_std = my_var ** 0.5
 
